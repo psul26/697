@@ -1,0 +1,6 @@
+INPUT(a)
+y1 = NOT(y)
+x1 = NOT(b)
+y = DFF(y1)
+x = DFF(x1)
+b = AND(a,x)

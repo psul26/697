@@ -118,10 +118,11 @@ for line in reader.readlines():
 		currentStateDict[line[0]] = 0
 		DFFDic[line[0]] = line[2]
 targetState = ""
-
-reader = open(sys.argv[2],"r")
-for line in reader.readlines():	
-	targetState = str(line).strip()
+reader.close()
+if len(sys.argv) == 3:
+	reader = open(sys.argv[2],"r")
+	for line in reader.readlines():	
+		targetState = str(line).strip()
 	
 reader.close()
 
@@ -130,7 +131,7 @@ reader.close()
 
 
 
-reader.close()
+
 
 
 for i in xrange(0,2**len(inDict)):
@@ -179,7 +180,7 @@ while searching:
 	if len(toBeExplored) == 0:
 		searching = False
 print visited
-if targetState not in (visited or toBeExplored):
+if targetState not in (visited or toBeExplored) and (len(sys.argv) == 3):
 	print ("Target state ",targetState, " not found" )
 
 

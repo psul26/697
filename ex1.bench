@@ -1,0 +1,8 @@
+INPUT(A)
+OUTPUT(Y)
+V0 = AND(A,X1)
+V1 = NOT(X1)
+V2 = DFF(V1)
+V3 = DFF(V0)
+X1 = AND(V2,V3)
+Y  = AND(A,X1) 
