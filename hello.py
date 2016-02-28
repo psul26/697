@@ -96,33 +96,35 @@ reader = open(sys.argv[1],"r")
 #	reader = csv.reader(csvfile)
 
 for line in reader.readlines():	
-	line = line.replace("="," ")
-	line = line.replace("("," ")
-	line = line.replace(")"," ")
-	line = line.replace(","," ")
-	line = str(line).split()
+	if not line == '\n':
+		line = line.replace("="," ")
+		line = line.replace("("," ")
+		line = line.replace(")"," ")
+		line = line.replace(","," ")
+		line = str(line).split()
 	
-	if line[0] == "INPUT":
-		d[line[1]] = line[0],0
-		inDict[line[1]] = 0
-		inputs.append(Input(line[1],0))
-	if line[1] == "AND":
+		if line[0] == "INPUT":
+			d[line[1]] = line[0],0
+			inDict[line[1]] = 0
+			inputs.append(Input(line[1],0))
+		if line[1] == "AND":
 		
-		d[line[0]] = line[1],line[2],line[3]
-	if line[1] == "NOT":
+			d[line[0]] = line[1],line[2],line[3]
+		if line[1] == "NOT":
 		
-		d[line[0]] = line[1],line[2]
-	if line[1] == "DFF":
-		DFFS.append(DFF(line[0],line[0],line[2]))
-		d[line[0]] = line[1],line[2],0
-		currentStateDict[line[0]] = 0
-		DFFDic[line[0]] = line[2]
+			d[line[0]] = line[1],line[2]
+		if line[1] == "DFF":
+			DFFS.append(DFF(line[0],line[0],line[2]))
+			d[line[0]] = line[1],line[2],0
+			currentStateDict[line[0]] = 0
+			DFFDic[line[0]] = line[2]
 targetState = ""
 reader.close()
 if len(sys.argv) == 3:
 	reader = open(sys.argv[2],"r")
-	for line in reader.readlines():	
-		targetState = str(line).strip()
+	for line in reader.readlines():
+		if not line == '\n':	
+			targetState = str(line).strip()
 	
 reader.close()
 
