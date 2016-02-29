@@ -15,20 +15,29 @@ truthTable ={}
 toBeExplored = {}
 inputs = []
 DFFS = []
+curNodes ={}
 
 def signal_handler(signum,frame):
 	raise Exception("Program has timed out after 600 seconds without finding the desired state")
 
 def getNode(node):
-	if d[node][0] == "INPUT":
-		return int(inDict[node])
-	if d[node][0] == "AND":
-		return int(getNode(d[node][1])) & int(getNode(d[node][2]))
-	if d[node][0] == "NOT":
-		return int(not((getNode(d[node][1]))))
-	if d[node][0] == "DFF":
-		return int(currentStateDict[node])
-		
+	if node not in curNodes:
+		if d[node][0] == "INPUT":
+			curNodes[node] = int(inDict[node])
+			return curNodes[node]
+		if d[node][0] == "AND":
+			curNodes[node] = int(getNode(d[node][1]))&int(getNode(d[node][2]))
+			 
+			return curNodes[node] 
+		if d[node][0] == "NOT":
+			curNodes[node] = int(not((getNode(d[node][1]))))
+			return curNodes[node]
+		if d[node][0] == "DFF":
+			curNodes[node] = int(currentStateDict[node])
+			return curNodes[node]
+	if node in curNodes:
+		return curNodes[node]
+
 def setInputs(inputString):
 		#print (" set ins called ", inputString)
 		inputString = str(inputString)
@@ -127,6 +136,7 @@ reader.close()
 if len(sys.argv) == 3:
 	reader = open(sys.argv[2],"r")
 	for line in reader.readlines():
+		print line
 		if not line == '\n':	
 			targetState = str(line).strip()
 	
@@ -164,6 +174,7 @@ signal.alarm(600)
 
 try:
 	while searching:
+		
 		curState = str(toBeExplored.keys()[0])
 		visited[str(curState)] = True 
 		#print ("to be explored keys" ,toBeExplored.keys()[0])
@@ -171,6 +182,7 @@ try:
 		del toBeExplored[curState]
 		for i in xrange(0,len(truthTable)):
 			#print("before i ", truthTable[i])
+			curNodes.clear()
 			setInputs(truthTable[i])
 			
 			stateString = getNewStates();
@@ -185,12 +197,13 @@ try:
 			if targetState in (visited or toBeExplored):
 				print ("target state: "+targetState+ " was reached")
 				break			
-
+		print ("number of states visited: "+str(len(visited)))
 		if len(toBeExplored) == 0:
 			searching = False
-	print visited
+	
+	
 	if targetState not in (visited or toBeExplored) and (len(sys.argv) == 3):
 		print ("Target state ",targetState, " not found" )
 except Exception,msg:
 	print ("Program has timed out after 600 seconds without finding the desired state")
-	print visited
+	print len(visited)
