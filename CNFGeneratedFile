@@ -1,0 +1,46 @@
+p cnf 12 22
+c initial states start
+-4 0
+-5 0
+c initial states end
+c  
+c unroll of the transition relation: 0
+c 
+c ands begin for loop
+1 -6 0
+5 -6 0
+-1 -5 6 0
+c ANDS for loop done
+c nots for loop begin
+c 
+-4 -2 0
+4 2 0
+-6 -3 0
+6 3 0
+c nots for this loop ends
+c 
+c linking begins 
+c linking ends 
+c loop: 0 ends 
+c unroll of the transition relation: 1
+c 
+c ands begin for loop
+7 -12 0
+11 -12 0
+-7 -11 12 0
+c ANDS for loop done
+c nots for loop begin
+c 
+-10 -8 0
+10 8 0
+-12 -9 0
+12 9 0
+c nots for this loop ends
+c 
+c linking begins 
+-2 10 0
+2 -10 0
+-3 11 0
+3 -11 0
+c linking ends 
+c loop: 1 ends 

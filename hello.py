@@ -1,6 +1,7 @@
 import csv
 import sys
 import signal
+
 ############################
 #Parser
 
