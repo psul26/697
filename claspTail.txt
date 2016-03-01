@@ -1,0 +1,155 @@
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.001s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.000s
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.002s (Solving: 0.00s 1st Model: 0.00s Un.sat: 0.00s)
+c CPU Time      : 0.000s
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.002s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.000s
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.003s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.000s
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.003s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.000s
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.003s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.000s
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.004s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.000s
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.004s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.000s
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.006s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.000s
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.006s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.000s
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.007s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.000s
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.008s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.000s
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.009s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.000s
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.009s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.000s
+c clasp version 2.1.4
+c Reading from out
+s UNSATISFIABLE
+
+c Models        : 0     
+c Time          : 0.010s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.000s
+v -7969 -7970 -7971 7972 -7973 7974 7975 -7976 -7977 -7978 -7979 -7980 -7981
+v -7982 7983 -7984 7985 -7986 7987 -7988 -7989 7990 7991 -7992 -7993 -7994
+v 7995 -7996 7997 7998 -7999 -8000 -8001 8002 -8003 8004 8005 -8006 -8007
+v -8008 -8009 -8010 -8011 -8012 8013 -8014 -8015 8016 8017 -8018 -8019 -8020
+v 8021 -8022 8023 8024 -8025 -8026 -8027 8028 -8029 8030 8031 -8032 0
+s SATISFIABLE
+
+c Models        : 1+    
+c Time          : 0.013s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.010s
+v -8479 -8480 -8481 -8482 -8483 -8484 8485 -8486 8487 -8488 8489 -8490 -8491
+v 8492 8493 -8494 -8495 -8496 8497 -8498 8499 8500 -8501 -8502 -8503 8504
+v -8505 8506 8507 -8508 -8509 -8510 -8511 -8512 -8513 -8514 8515 -8516 -8517
+v 8518 8519 -8520 -8521 -8522 8523 -8524 8525 8526 -8527 -8528 -8529 8530
+v -8531 8532 8533 -8534 0
+s SATISFIABLE
+
+c Models        : 1+    
+c Time          : 0.018s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.010s
+v -8983 -8984 -8985 -8986 8987 -8988 8989 -8990 8991 -8992 -8993 8994 8995
+v -8996 -8997 -8998 8999 -9000 9001 9002 -9003 -9004 -9005 9006 -9007 9008
+v 9009 -9010 -9011 -9012 -9013 -9014 -9015 -9016 9017 -9018 -9019 9020 9021
+v -9022 -9023 -9024 9025 -9026 9027 9028 -9029 -9030 -9031 9032 -9033 9034
+v 9035 -9036 0
+s SATISFIABLE
+
+c Models        : 1+    
+c Time          : 0.017s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.010s
+v -9485 -9486 -9487 -9488 9489 -9490 9491 -9492 9493 -9494 -9495 9496 9497
+v -9498 -9499 -9500 9501 -9502 9503 9504 -9505 -9506 -9507 9508 -9509 9510
+v 9511 -9512 -9513 -9514 -9515 -9516 -9517 -9518 9519 -9520 -9521 9522 9523
+v -9524 -9525 -9526 9527 -9528 9529 9530 -9531 -9532 -9533 9534 -9535 9536
+v 9537 -9538 0
+s SATISFIABLE
+
+c Models        : 1+    
+c Time          : 0.016s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.010s
+v -9990 9991 -9992 9993 -9994 9995 -9996 -9997 9998 9999 -10000 -10001 -10002
+v 10003 -10004 10005 10006 -10007 -10008 -10009 10010 -10011 10012 10013
+v -10014 -10015 -10016 -10017 -10018 -10019 -10020 10021 -10022 -10023 10024
+v 10025 -10026 -10027 -10028 10029 -10030 10031 10032 -10033 -10034 -10035
+v 10036 -10037 10038 10039 -10040 0
+s SATISFIABLE
+
+c Models        : 1+    
+c Time          : 0.018s (Solving: 0.00s 1st Model: 0.00s Unsat: 0.00s)
+c CPU Time      : 0.010s

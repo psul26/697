@@ -1,0 +1,200 @@
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (-nan /sec)
+decisions             : 0              (-nan % random) (-nan /sec)
+propagations          : 426            (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 21.00 MB
+CPU time              : 0 s
+
+UNSATISFIABLE
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 836            (209000 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 21.00 MB
+CPU time              : 0.004 s
+
+UNSATISFIABLE
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 1234           (308500 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 22.00 MB
+CPU time              : 0.004 s
+
+UNSATISFIABLE
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (-nan /sec)
+decisions             : 0              (-nan % random) (-nan /sec)
+propagations          : 1615           (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 22.00 MB
+CPU time              : 0 s
+
+UNSATISFIABLE
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 2027           (506750 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 22.00 MB
+CPU time              : 0.004 s
+
+UNSATISFIABLE
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (-nan /sec)
+decisions             : 0              (-nan % random) (-nan /sec)
+propagations          : 2475           (inf /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 22.00 MB
+CPU time              : 0 s
+
+UNSATISFIABLE
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 2947           (736750 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 22.00 MB
+CPU time              : 0.004 s
+
+UNSATISFIABLE
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 3432           (858000 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 22.00 MB
+CPU time              : 0.004 s
+
+UNSATISFIABLE
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 3791           (947750 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 22.00 MB
+CPU time              : 0.004 s
+
+UNSATISFIABLE
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 4149           (518625 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 23.00 MB
+CPU time              : 0.008 s
+
+UNSATISFIABLE
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 4487           (560875 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 23.00 MB
+CPU time              : 0.008 s
+
+UNSATISFIABLE
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 4840           (605000 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 23.00 MB
+CPU time              : 0.008 s
+
+UNSATISFIABLE
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 5120           (426667 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 23.00 MB
+CPU time              : 0.012 s
+
+UNSATISFIABLE
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 5415           (451250 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 23.00 MB
+CPU time              : 0.012 s
+
+UNSATISFIABLE
+Solved by simplification
+restarts              : 0
+conflicts             : 0              (0 /sec)
+decisions             : 0              (-nan % random) (0 /sec)
+propagations          : 5673           (472750 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 23.00 MB
+CPU time              : 0.012 s
+
+UNSATISFIABLE
+===============================================================================
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (83 /sec)
+propagations          : 5933           (494417 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 23.00 MB
+CPU time              : 0.012 s
+
+SATISFIABLE
+===============================================================================
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (62 /sec)
+propagations          : 6189           (386812 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 24.00 MB
+CPU time              : 0.016 s
+
+SATISFIABLE
+===============================================================================
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (62 /sec)
+propagations          : 6384           (399000 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 24.00 MB
+CPU time              : 0.016 s
+
+SATISFIABLE
+===============================================================================
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 3              (0.00 % random) (188 /sec)
+propagations          : 6613           (413312 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 24.00 MB
+CPU time              : 0.016 s
+
+SATISFIABLE
+===============================================================================
+restarts              : 1
+conflicts             : 0              (0 /sec)
+decisions             : 1              (0.00 % random) (62 /sec)
+propagations          : 6799           (424938 /sec)
+conflict literals     : 0              (-nan % deleted)
+Memory used           : 24.00 MB
+CPU time              : 0.016 s
+
+SATISFIABLE
