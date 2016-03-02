@@ -7,6 +7,6 @@ do
 	python CNFGen.py ex4.bench ex4.state $i 
 	
 	
-
-	picosat  out |  sed 1p
+	minisat out 
+	#picosat -v out | tail >> picoTail.txt
 done

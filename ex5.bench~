@@ -1,0 +1,11 @@
+INPUT(a)
+INPUT(b)
+OUTPUT(Y)
+5 = AND(a,1)
+1 = NOT(2)
+3 = DFF(5)
+2 = DFF(1)
+4 = DFF(6)
+6 = AND(a,b)
+
+

@@ -1,4 +1,5 @@
-INPUT(a)
+INPUT(A)
+OUTPUT(Y)
 V0 = AND(A,X1)
 V1 = NOT(X1)
 V2 = DFF(V1)
